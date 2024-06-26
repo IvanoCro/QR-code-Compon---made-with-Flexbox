@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.qr-code-image{
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+.desc{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
